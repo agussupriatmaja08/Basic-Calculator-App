@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator</title>
+    <link rel="stylesheet" href="kalkulator.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="displayy">
+            <input placeholder="0" id="screen">
+        </div>
+        <div class="bawah">
+            <div class="tombol-kiri" >
+
+
+                <script>
+                    for (let i = 1; i <= 3; i++) {
+                        if (i == 1) {
+                            document.write(`<button class="tombol-angka" onclick="display('AC')">AC</button>`);
+                        }
+                        if (i == 2) {
+                            document.write(`<button class="tombol-angka" onclick="display('del')">del</button>`);
+                        }
+                        if (i == 3) {
+                            document.write(`<button class="tombol-angka" onclick="display('%')">%</button>`);
+                        }
+
+                    }
+
+                    for (let i = 9; i >= 0; i--) {
+                        document.write(`<button class="tombol-angka" onclick="display(${i})">${i}</button>`);
+
+                    }
+
+
+                </script>
+            </div>
+            <div class="tombol-kanan">
+                <script>
+                    for (let i = 1; i <= 5; i++) {
+                        if (i == 1) {
+                            document.write(`<button class="tombol-angka2" onclick="display('/')">:</button>`);
+                        }
+                        if (i == 2) {
+                            document.write(`<button class="tombol-angka2" onclick="display('*')">x</button>`);
+                        }
+                        if (i == 3) {
+                            document.write(`<button class="tombol-angka2" onclick="display('-')">-</button>`);
+                        }
+                        if (i == 4) {
+                            document.write(`<button class="tombol-angka2" onclick="display('+')">+</button>`);
+                        }
+                        if (i == 5) {
+                            document.write(`<button class="tombol-angka2" onclick="display('action')">=</button>`);
+                        }
+                    }
+
+                </script>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+<script src="kalkulator.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,104 @@
+body{
+    text-align: center;
+    padding: 40px;
+    background-color: green;
+    
+}
+
+.container{
+    border-radius: 20px;
+    margin: auto;
+    width: 300px;
+    height: 600px;
+    background-color:rgb(231, 231, 231);
+    box-shadow: inset 3px 3px 2px white, 5px 5px 12px rgb(56, 56, 56);
+    text-align: center;
+    padding-top: 10px;
+    /* display: flex; */
+}
+
+
+.displayy{
+
+    width: 250px;
+    height: 150px;
+    border-radius: 20px;
+    /* border: none; */
+    background-color:rgb(241, 241, 241);
+    box-shadow: inset 1px 1px 0.5px rgb(42, 42, 42), 2px 2px 0.2px rgb(255, 255, 255);
+    padding: 10px;
+    margin: auto;
+    margin-top: 25px;
+
+    
+  
+
+}
+.container input{
+    width: 250px;
+    height: 150px;
+    border-radius: 20px;
+    border: none;
+    text-align: end;
+    
+
+    font-size: 30px;
+    
+    background: transparent;
+    /* box-shadow: inset 2px 3px 11px rgb(0, 0, 0, 0, 19), 5px 5px 12px rgb(255, 255, 255); */
+
+}
+
+
+.bawah{
+    width: 300px;
+    height: 90px;
+    display: flex; 
+    /* background-color: black; */
+}
+
+
+.tombol-kiri{
+    margin-top: 5px;
+    margin-left: 10px;
+    height: 294px;
+    width: 390px;
+    /* background-color: aqua; */
+    /* display: grid;
+   grid-template-columns: auto auto auto;
+   grid-gap: 10px; */
+   justify-content: space-evenly;
+}
+.tombol-kanan{
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 294px;
+    width: 90px;
+    /* background-color:rgb(255, 21, 0); */
+}
+.tombol-angka{
+    background-color:white;
+    box-shadow: 1px 1px 2px rgb(79, 79, 79);
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+    border: none;
+    margin: 2px 2px 2px 2px;
+    font-size: 25px;
+    cursor: pointer;
+
+}
+
+.tombol-angka2{
+    background-color:white;
+    box-shadow: 1px 1px 2px rgb(79, 79, 79);
+    width: 50px;
+    height: 70px;
+    border-radius: 5px;
+    border: none;
+    margin: 2px 2px 2px 2px;
+    font-size: 25px;
+    cursor: pointer;
+
+}
